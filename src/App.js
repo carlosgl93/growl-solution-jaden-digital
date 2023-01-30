@@ -19,7 +19,11 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <a className="App-link" href="#" onClick={() => void setActive(true)}>
+        <a
+          className="App-link"
+          href="#"
+          onClick={() => void setActive(true, 5000)}
+        >
           Clik here to activate the growl
         </a>
       </header>
