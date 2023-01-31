@@ -12,7 +12,6 @@ export const Growl = ({ active, message, onDismissed }) => (
 export function useGrowl(timeout = 3000) {
   // state of the growl
   const [growlActive, setGrowlActive] = React.useState(false);
-
   // i need an effect to run the timeout
   // after growlActive value changes
   // when it unmounts i need to clear the timeout
